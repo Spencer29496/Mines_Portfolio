@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <!-- Rocket Body -->
+  <path d="M50,10 L60,40 L60,70 C60,75 55,80 50,80 C45,80 40,75 40,70 L40,40 Z" fill="#8b5cf6" />
+  
+  <!-- Rocket Window -->
+  <circle cx="50" cy="40" r="5" fill="#e0e7ff" />
+  
+  <!-- Rocket Fins -->
+  <path d="M40,60 L30,70 L40,70 Z" fill="#4c1d95" />
+  <path d="M60,60 L70,70 L60,70 Z" fill="#4c1d95" />
+  
+  <!-- Rocket Bottom -->
+  <path d="M45,80 L55,80 L55,85 L45,85 Z" fill="#4c1d95" />
+  
+  <!-- Rocket Flames -->
+  <path d="M45,85 L50,95 L55,85 Z" fill="#f97316" >
+    <animate attributeName="d" 
+             values="M45,85 L50,95 L55,85 Z;
+                     M45,85 L50,99 L55,85 Z;
+                     M45,85 L50,95 L55,85 Z" 
+             dur="0.5s" 
+             repeatCount="indefinite" />
+  </path>
+  
+  <!-- Stars -->
+  <circle cx="15" cy="15" r="1" fill="white" />
+  <circle cx="25" cy="30" r="0.7" fill="white" />
+  <circle cx="80" cy="20" r="0.8" fill="white" />
+  <circle cx="85" cy="75" r="1" fill="white" />
+  <circle cx="10" cy="65" r="0.9" fill="white" />
+  <circle cx="55" cy="5" r="0.8" fill="white" />
+  <circle cx="90" cy="40" r="0.7" fill="white" />
+</svg> 

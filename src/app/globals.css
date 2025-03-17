@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #0a0821;
+  --foreground: #e0e7ff;
+  --accent-primary: #8b5cf6;
+  --accent-secondary: #4c1d95;
+  --star-color: #ffffff;
+  --planet-glow: #4338ca;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-accent-primary: var(--accent-primary);
+  --color-accent-secondary: var(--accent-secondary);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0821;
+    --foreground: #e0e7ff;
+    --accent-primary: #8b5cf6;
+    --accent-secondary: #4c1d95;
+    --star-color: #ffffff;
+    --planet-glow: #4338ca;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+  background-image: 
+    radial-gradient(1px 1px at 25% 30%, var(--star-color), transparent),
+    radial-gradient(1px 1px at 50% 50%, var(--star-color), transparent),
+    radial-gradient(1px 1px at 75% 70%, var(--star-color), transparent),
+    radial-gradient(2px 2px at 10% 20%, var(--star-color), transparent),
+    radial-gradient(2px 2px at 30% 80%, var(--star-color), transparent),
+    radial-gradient(2px 2px at 60% 10%, var(--star-color), transparent),
+    radial-gradient(2px 2px at 90% 40%, var(--star-color), transparent);
+  background-size: 100% 100%;
+}
+
+@layer base {
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-geist-sans), system-ui, sans-serif;
+  }
+}
+
+/* Let's define container without using responsive utilities */
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  max-width: 80rem;
+}
+
+/* Space theme animations */
+@keyframes twinkle {
+  0%, 100% { opacity: 0.3; }
+  50% { opacity: 1; }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.star {
+  position: absolute;
+  background-color: var(--star-color);
+  border-radius: 50%;
+  animation: twinkle 3s infinite;
+}
+
+.float-animation {
+  animation: float 6s ease-in-out infinite;
+}
