@@ -87,10 +87,13 @@ export default function Home() {
             </div>
             <div className="flex justify-center">
               <div className="relative w-64 h-64 rounded-full overflow-hidden border-4 border-accent-primary float-animation">
-                {/* Replace with actual profile image */}
-                <div className="absolute inset-0 bg-gradient-to-br from-accent-primary to-accent-secondary flex items-center justify-center text-white text-4xl font-bold">
-                  SM
-                </div>
+                <Image 
+                  src="/Spencer.jpg"
+                  alt="Spencer Mines"
+                  fill
+                  className="object-cover"
+                  priority
+                />
                 <div className="absolute -inset-1 bg-planet-glow/20 blur-md rounded-full"></div>
               </div>
             </div>

@@ -57,6 +57,7 @@ export function ResumeSection() {
                 <h4 className="text-xl font-semibold">Binghamton University, SUNY | School of Computing</h4>
                 <p className="text-sm text-gray-300 mb-2">Expected Spring 2025</p>
                 <p className="text-white">Bachelor of Science in Computer Science</p>
+                <p className="text-white mt-2">Relevant Coursework: High Performance Computing, Discrete Mathematics, Computer Vision, Operating Systems, Linear Algebra, Software Engineering, Design Patterns</p>
               </div>
             </div>
           </div>
@@ -70,54 +71,7 @@ export function ResumeSection() {
               Technical Skills
             </h3>
             <div className="bg-white/10 p-4 rounded-md border border-gray-200">
-              <p className="text-white">Java | Python | C++ | SQL | Linux | Databases | Data Structures | GitHub | Debugging | Software Engineering</p>
-            </div>
-          </div>
-          
-          {/* Computing Experience */}
-          <div className="mb-10">
-            <h3 className="text-2xl font-bold mb-5 text-blue-600 flex items-center">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mr-2">
-                <path d="M18 10h-4V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v6H2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-8a2 2 0 0 0-2-2z"></path>
-              </svg>
-              Computing Experience
-            </h3>
-            <div className="space-y-6">
-              <div className="relative pl-8 border-l-2 border-gray-300">
-                <div className="absolute -left-1.5 top-0">
-                  <div className="w-3 h-3 rounded-full bg-blue-600"></div>
-                </div>
-                <h4 className="text-xl font-semibold">Artificial Intelligence</h4>
-                <p className="text-sm text-gray-300 mb-2">Binghamton, NY • Student • August 2024 – December 2024</p>
-                <ul className="list-disc list-inside space-y-2 text-white">
-                  <li>Studied fundamental concepts in AI agent design, including search algorithms, knowledge representation, and planning techniques</li>
-                  <li>Gained hands-on experience with AI applications, such as natural language processing, computer vision, and robotics</li>
-                </ul>
-              </div>
-              
-              <div className="relative pl-8 border-l-2 border-gray-300">
-                <div className="absolute -left-1.5 top-0">
-                  <div className="w-3 h-3 rounded-full bg-blue-600"></div>
-                </div>
-                <h4 className="text-xl font-semibold">Data Structures and Algorithms</h4>
-                <p className="text-sm text-gray-300 mb-2">Binghamton, NY • Student • August 2023 – December 2023</p>
-                <ul className="list-disc list-inside space-y-2 text-white">
-                  <li>Proficiency in designing and implementing basic and advanced data structures (lists, stacks, queues, hash tables, trees, heaps)</li>
-                  <li>Advanced skills in programming with C++, including the use of templates, operator overloading, and dynamic memory management</li>
-                </ul>
-              </div>
-              
-              <div className="relative pl-8 border-l-2 border-gray-300">
-                <div className="absolute -left-1.5 top-0">
-                  <div className="w-3 h-3 rounded-full bg-blue-600"></div>
-                </div>
-                <h4 className="text-xl font-semibold">Advanced Computer Architecture</h4>
-                <p className="text-sm text-gray-300 mb-2">Binghamton, NY • Student • August 2023 – December 2023</p>
-                <ul className="list-disc list-inside space-y-2 text-white">
-                  <li>Demonstrated competence in instruction set architecture and its implications on system performance</li>
-                  <li>Skilled in designing and optimizing caches and memory systems, including understanding the memory hierarchy</li>
-                </ul>
-              </div>
+              <p className="text-white">Java | Next.js | Python | C++ | SQL | Linux | Databases | Data Structures | GitHub | Debugging | Software Engineering</p>
             </div>
           </div>
           
@@ -157,6 +111,41 @@ export function ResumeSection() {
             </div>
           </div>
           
+          {/* Technical Experience */}
+          <div className="mb-10">
+            <h3 className="text-2xl font-bold mb-5 text-blue-600 flex items-center">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mr-2">
+                <path d="M18 10h-4V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v6H2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-8a2 2 0 0 0-2-2z"></path>
+              </svg>
+              Technical Experience
+            </h3>
+            <div className="space-y-6">
+              <div className="relative pl-8 border-l-2 border-gray-300">
+                <div className="absolute -left-1.5 top-0">
+                  <div className="w-3 h-3 rounded-full bg-blue-600"></div>
+                </div>
+                <h4 className="text-xl font-semibold">Software Development and Systems</h4>
+                <ul className="list-disc list-inside space-y-2 text-white">
+                  <li>Proficient in Java, Python, C++, and SQL with experience in full-stack development</li>
+                  <li>Strong foundation in data structures (lists, stacks, queues, trees, heaps, hash tables) and algorithm design</li>
+                  <li>Skilled in memory management, instruction set architecture, and cache optimization</li>
+                </ul>
+              </div>
+              
+              <div className="relative pl-8 border-l-2 border-gray-300">
+                <div className="absolute -left-1.5 top-0">
+                  <div className="w-3 h-3 rounded-full bg-blue-600"></div>
+                </div>
+                <h4 className="text-xl font-semibold">Artificial Intelligence and Machine Learning</h4>
+                <ul className="list-disc list-inside space-y-2 text-white">
+                  <li>Studied AI agent design, search algorithms, knowledge representation, and planning techniques</li>
+                  <li>Gained hands-on experience with natural language processing, computer vision, and robotics</li>
+                  <li>Implemented Markov Decision Processes (MDPs), Q-learning agents, and Expectimax-based AI in adversarial games</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          
           {/* Projects section */}
           <div className="mb-10">
             <h3 className="text-2xl font-bold mb-5 text-blue-600 flex items-center">
@@ -185,11 +174,10 @@ export function ResumeSection() {
                   <div className="w-3 h-3 rounded-full bg-blue-600"></div>
                 </div>
                 <h4 className="text-xl font-semibold">Portfolio Website</h4>
-                <p className="text-sm text-gray-300 mb-2">Technologies: Next.js, TypeScript, TailwindCSS • March 2025 - Present</p>
+                <p className="text-sm text-gray-300 mb-2">Technologies: Next.js, TypeScript, TailwindCSS • March 2025 – Present</p>
                 <ul className="list-disc list-inside space-y-2 text-white">
                   <li>Designed and developed a responsive portfolio website to showcase projects and skills</li>
                   <li>Implemented interactive UI elements and animations to enhance user experience and engagement</li>
-                  <li>Utilized modern web development technologies to create a performant and accessible website</li>
                 </ul>
               </div>
               
@@ -200,8 +188,8 @@ export function ResumeSection() {
                 <h4 className="text-xl font-semibold">Exoplanet Database</h4>
                 <p className="text-sm text-gray-300 mb-2">Technologies: Python, SQL/Databases • October 2024 – December 2024</p>
                 <ul className="list-disc list-inside space-y-2 text-white">
-                  <li>Developed a Flask-based web application to display, search, and explore a database of astronomical objects with pagination and detailed views</li>
-                  <li>Designed and implemented an SQLite database schema to store astronomical data, including discovery details, relevant information, and image URLs</li>
+                  <li>Developed a Flask-based web application to display, search, and explore a database of exoplanets with pagination and detailed views for each planet</li>
+                  <li>Designed and implemented an SQLite database schema to store exoplanet information, including discovery details, host star data, and image URLs</li>
                 </ul>
               </div>
               
@@ -247,7 +235,7 @@ export function ResumeSection() {
                   <div className="w-3 h-3 rounded-full bg-blue-600"></div>
                 </div>
                 <h4 className="text-xl font-semibold">Centenary United Methodist Church</h4>
-                <p className="text-sm text-gray-300 mb-2">Lambertville, NJ • Volunteer • April 2023 - Present</p>
+                <p className="text-sm text-gray-300 mb-2">Lambertville, NJ • Volunteer • April 2023 – August 2023</p>
                 <ul className="list-disc list-inside space-y-2 text-white">
                   <li>Dedicated volunteer work at the soup kitchen, providing essential support to individuals facing food insecurity within the community</li>
                 </ul>
