@@ -10,7 +10,7 @@ export function ResumeSection() {
           {/* Resume Buttons */}
           <div className="flex flex-col sm:flex-row justify-center gap-4 mb-10">
             <a
-              href="/Spencer_Mines_Resume.pdf"
+              href="/SpencerMines_Resume.pdf"
               download
               className="flex items-center justify-center gap-2 rounded-md border border-solid border-blue-600 transition-colors bg-blue-600 text-white hover:bg-blue-700 hover:border-blue-700 font-medium text-base h-12 px-6 sm:px-8"
             >
@@ -26,7 +26,7 @@ export function ResumeSection() {
               Download Resume
             </a>
             <a
-              href="/Spencer_Mines_Resume.pdf"
+              href="/SpencerMines_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-2 rounded-md border border-solid border-blue-600 transition-colors bg-transparent text-blue-600 hover:bg-blue-50 font-medium text-base h-12 px-6 sm:px-8"
