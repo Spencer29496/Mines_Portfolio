@@ -207,7 +207,6 @@ export default function Home() {
         </div>
         <div className="container mx-auto px-4 relative">
           <p className="text-center text-sm text-accent-primary/70">
-            © {new Date().getFullYear()} Spencer Mines. All rights reserved. <span className="text-foreground/50">Building the digital future</span>
           </p>
         </div>
       </footer>
