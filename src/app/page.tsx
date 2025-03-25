@@ -163,7 +163,7 @@ export default function Home() {
             </p>
             <div className="text-center">
               <a
-                href="mailto:spencermines@example.com"
+                href="mailto:spencermines1@gmail.com"
                 className="inline-block rounded-full border border-solid border-accent-primary transition-colors flex items-center justify-center bg-accent-primary text-background gap-2 hover:bg-accent-secondary hover:border-accent-secondary font-medium text-base h-12 px-8 mx-auto"
               >
                 Send Message
