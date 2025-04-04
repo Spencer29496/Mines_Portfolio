@@ -34,10 +34,17 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
+      <head />
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        suppressHydrationWarning
+      >
         {/* Google tag (gtag.js) */}
-        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-TYY929FN5Y" />
-        <Script id="gtag-init">
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-TYY929FN5Y"
+          strategy="afterInteractive"
+        />
+        <Script id="gtag-init" strategy="afterInteractive">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
@@ -45,11 +52,6 @@ export default function RootLayout({
             gtag('config', 'G-TYY929FN5Y');
           `}
         </Script>
-      </head>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-        suppressHydrationWarning
-      >
         {children}
         <Analytics />
       </body>
