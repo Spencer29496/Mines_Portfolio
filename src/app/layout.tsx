@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Spencer Mines | Cosmic Portfolio",
+  title: "Spencer Mines | Portfolio",
   description: "Personal portfolio of Spencer Mines, showcasing projects in software development, data analysis, and artificial intelligence.",
   icons: {
     icon: [
