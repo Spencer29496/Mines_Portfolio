@@ -88,7 +88,7 @@ export default function Home() {
             <div className="flex justify-center">
               <div className="relative w-64 h-64 rounded-full overflow-hidden border-4 border-accent-primary float-animation">
                 <Image 
-                  src="/Spencer.jpg"
+                  src="/IMG_1424.JPG"
                   alt="Spencer Mines"
                   fill
                   className="object-cover"
