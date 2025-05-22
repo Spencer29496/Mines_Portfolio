@@ -55,9 +55,9 @@ export function ResumeSection() {
                   <div className="w-3 h-3 rounded-full bg-blue-600"></div>
                 </div>
                 <h4 className="text-xl font-semibold">Binghamton University, SUNY | School of Computing</h4>
-                <p className="text-sm text-gray-300 mb-2">Expected Spring 2025</p>
+                <p className="text-sm text-gray-300 mb-2">Graduated Spring 2025</p>
                 <p className="text-white">Bachelor of Science in Computer Science</p>
-                <p className="text-white mt-2">Relevant Coursework: High Performance Computing, Discrete Mathematics, Computer Vision, Operating Systems, Linear Algebra, Software Engineering, Design Patterns</p>
+                <p className="text-white mt-2">Relevant Coursework: Artificial Intelligence, High Performance Computing, Discrete Mathematics, Computer Vision, Operating Systems, Linear Algebra, Software Engineering, Design Patterns</p>
               </div>
             </div>
           </div>
@@ -70,8 +70,9 @@ export function ResumeSection() {
               </svg>
               Technical Skills
             </h3>
-            <div className="bg-white/10 p-4 rounded-md border border-gray-200">
-              <p className="text-white">Java | Next.js | Python | C++ | SQL | Linux | Databases | Data Structures | GitHub | Debugging | Software Engineering</p>
+            <div className="bg-white/10 p-4 rounded-md border border-gray-200 space-y-2">
+              <p className="text-white"><span className="font-semibold">Languages:</span> Java, Python, C, C++, SQL, HTML</p>
+              <p className="text-white"><span className="font-semibold">Frameworks and Software:</span> Next.js, AWS, React, Git, Linux, Windows, MacOS, Microsoft</p>
             </div>
           </div>
           
@@ -89,11 +90,11 @@ export function ResumeSection() {
                 <div className="absolute -left-1.5 top-0">
                   <div className="w-3 h-3 rounded-full bg-blue-600"></div>
                 </div>
-                <h4 className="text-xl font-semibold">Dickinson Area Office</h4>
-                <p className="text-sm text-gray-300 mb-2">Binghamton, NY • Front Desk Position • September 2021 - Present</p>
+                <h4 className="text-xl font-semibold">McCaffrey's Food Market</h4>
+                <p className="text-sm text-gray-300 mb-2">New Hope, PA • Cashier • June 2022 – Present</p>
                 <ul className="list-disc list-inside space-y-2 text-white">
-                  <li>Maintained and organized keys for residents of the Dickinson Community at Binghamton University</li>
-                  <li>Answered phone calls from students and parents concerning questions or problems about residential life</li>
+                  <li>Managed financial transactions and processed customer payments to execute the sale of goods in an efficient manner</li>
+                  <li>Recognized for exceptional customer service and consistently exceeding customer satisfaction goals</li>
                 </ul>
               </div>
               
@@ -101,11 +102,11 @@ export function ResumeSection() {
                 <div className="absolute -left-1.5 top-0">
                   <div className="w-3 h-3 rounded-full bg-blue-600"></div>
                 </div>
-                <h4 className="text-xl font-semibold">McCaffrey's Food Market</h4>
-                <p className="text-sm text-gray-300 mb-2">New Hope, PA • Cashier • June 2022 – January 2025</p>
+                <h4 className="text-xl font-semibold">Dickinson Area Office</h4>
+                <p className="text-sm text-gray-300 mb-2">Binghamton, NY • Front Desk Position • September 2021 - May 2025</p>
                 <ul className="list-disc list-inside space-y-2 text-white">
-                  <li>Managed financial transactions and processed customer payments to execute the sale of goods in an efficient manner</li>
-                  <li>Recognized for exceptional customer service and consistently exceeding customer satisfaction goals</li>
+                  <li>Maintained and organized keys for residents of the Dickinson Community at Binghamton University</li>
+                  <li>Answered phone calls from students and parents concerning questions or problems about residential life</li>
                 </ul>
               </div>
             </div>
@@ -161,11 +162,11 @@ export function ResumeSection() {
                 <div className="absolute -left-1.5 top-0">
                   <div className="w-3 h-3 rounded-full bg-blue-600"></div>
                 </div>
-                <h4 className="text-xl font-semibold">College Housing Platform</h4>
-                <p className="text-sm text-gray-300 mb-2">Technologies: Python, Node.js, React.js • January 2025 - Present</p>
+                <h4 className="text-xl font-semibold">Portfolio Website</h4>
+                <p className="text-sm text-gray-300 mb-2">Technologies: Next.js, TypeScript, TailwindCSS • March 2025 – Present</p>
                 <ul className="list-disc list-inside space-y-2 text-white">
-                  <li>Developed a platform to streamline the housing and roommate search process for college students, providing an all-in-one solution for listings and roommate connections</li>
-                  <li>Implemented an intuitive user interface featuring an interactive map, enabling users to explore housing options by location, price, and amenities</li>
+                  <li>Designed and developed a responsive portfolio website to showcase projects and skills</li>
+                  <li>Implemented interactive UI elements and animations to enhance user experience and engagement</li>
                 </ul>
               </div>
               
@@ -173,11 +174,11 @@ export function ResumeSection() {
                 <div className="absolute -left-1.5 top-0">
                   <div className="w-3 h-3 rounded-full bg-blue-600"></div>
                 </div>
-                <h4 className="text-xl font-semibold">Portfolio Website</h4>
-                <p className="text-sm text-gray-300 mb-2">Technologies: Next.js, TypeScript, TailwindCSS • March 2025 – Present</p>
+                <h4 className="text-xl font-semibold">College Housing Platform</h4>
+                <p className="text-sm text-gray-300 mb-2">Technologies: Python, Node.js, React.js • January 2025 – May 2025</p>
                 <ul className="list-disc list-inside space-y-2 text-white">
-                  <li>Designed and developed a responsive portfolio website to showcase projects and skills</li>
-                  <li>Implemented interactive UI elements and animations to enhance user experience and engagement</li>
+                  <li>Developed a platform to streamline the housing and roommate search process for college students, providing an all-in-one solution for listings and roommate connections</li>
+                  <li>Implemented an intuitive user interface featuring an interactive map, enabling users to explore housing options by location, price, and amenities</li>
                 </ul>
               </div>
               
