@@ -54,7 +54,7 @@ export default function Home() {
           </div>
           <h1 className="text-5xl md:text-6xl font-bold mb-6 text-gradient bg-clip-text text-transparent bg-gradient-to-r from-accent-primary to-accent-secondary float-animation">Spencer Mines</h1>
           <p className="text-xl md:text-2xl max-w-2xl mb-8">
-            Computer Science Student & <span className="text-accent-primary">Professional</span> Developer
+            Computer Science Graduate & <span className="text-accent-primary">Professional</span> Developer
           </p>
           <a
             href="#projects"
@@ -73,7 +73,7 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-4 backdrop-blur-sm bg-background/20 p-6 rounded-lg border border-accent-primary/20">
               <p className="text-lg">
-                I'm a Computer Science student at Binghamton University with a passion for 
+                I'm a Computer Science graduate from Binghamton University with a passion for 
                 software development, machine learning, and creating innovative solutions.
               </p>
               <p className="text-lg">
