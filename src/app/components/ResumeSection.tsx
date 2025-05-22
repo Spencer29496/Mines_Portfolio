@@ -72,7 +72,7 @@ export function ResumeSection() {
             </h3>
             <div className="bg-white/10 p-4 rounded-md border border-gray-200 space-y-2">
               <p className="text-white"><span className="font-semibold">Languages:</span> Java, Python, C, C++, SQL, HTML</p>
-              <p className="text-white"><span className="font-semibold">Frameworks and Software:</span> Next.js, AWS, React, Git, Docker, Linux, Windows, MacOS, Microsoft</p>
+              <p className="text-white"><span className="font-semibold">Frameworks and Software:</span> Next.js, AWS, Vercel, React, Git, Docker, Linux, Windows, MacOS, Microsoft</p>
             </div>
           </div>
           
