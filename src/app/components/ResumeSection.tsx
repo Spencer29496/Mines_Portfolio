@@ -72,7 +72,7 @@ export function ResumeSection() {
             </h3>
             <div className="bg-white/10 p-4 rounded-md border border-gray-200 space-y-2">
               <p className="text-white"><span className="font-semibold">Languages:</span> Java, Python, C, C++, SQL, HTML</p>
-              <p className="text-white"><span className="font-semibold">Frameworks and Software:</span> Next.js, AWS, React, Git, Linux, Windows, MacOS, Microsoft</p>
+              <p className="text-white"><span className="font-semibold">Frameworks and Software:</span> Next.js, AWS, React, Git, Docker, Linux, Windows, MacOS, Microsoft</p>
             </div>
           </div>
           
@@ -175,7 +175,7 @@ export function ResumeSection() {
                   <div className="w-3 h-3 rounded-full bg-blue-600"></div>
                 </div>
                 <h4 className="text-xl font-semibold">College Housing Platform</h4>
-                <p className="text-sm text-gray-300 mb-2">Technologies: Python, Node.js, React.js • January 2025 – May 2025</p>
+                <p className="text-sm text-gray-300 mb-2">Technologies: Docker, Node.js, React.js • January 2025 – May 2025</p>
                 <ul className="list-disc list-inside space-y-2 text-white">
                   <li>Developed a platform to streamline the housing and roommate search process for college students, providing an all-in-one solution for listings and roommate connections</li>
                   <li>Implemented an intuitive user interface featuring an interactive map, enabling users to explore housing options by location, price, and amenities</li>
