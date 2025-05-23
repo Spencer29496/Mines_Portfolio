@@ -126,24 +126,28 @@ export default function Home() {
               description="Research paper comparing control algorithms for closed-loop insulin delivery systems in patients with type 1 diabetes. The paper evaluates Model Predictive Control (MPC) and Proportional Integral Derivative (PID) algorithms for maintaining glucose levels."
               technologies={["Research", "Medical Technology", "Control Systems"]}
               imageUrl="/glycemic_planet.svg"
+              githubUrl="https://github.com/Spencer29496/glycemic-control-in-type-1-diabetics"
             />
             <ProjectCard
               title="Exoplanet Database"
               description="An interactive web application that provides a comprehensive, visually rich exploration platform for exoplanets discovered throughout our galaxy. It aggregates data from NASA's Exoplanet Archive and enhances it with descriptions and imagery from Wikipedia."
               technologies={["Python", "Flask", "SQLite", "Pandas", "Bootstrap"]}
               imageUrl="/planet.svg"
+              githubUrl="https://github.com/Spencer29496/exoplanet-database"
             />
             <ProjectCard
               title="College Housing Platform"
               description="A web platform designed to connect college students with housing options. Features include apartment listings, roommate matching, lease management, and neighborhood guides to help students find their ideal living situation."
               technologies={["Docker", "Node.js", "React", "Flask", "PostgreSQL"]}
               imageUrl="/planet.svg"
+              githubUrl="https://github.com/Spencer29496/college-housing-platform"
             />
             <ProjectCard
               title="Reinforcement Learning with Pacman"
               description="Implementation of various reinforcement learning algorithms to enable an AI agent to learn optimal strategies for playing Pacman. Includes value iteration, Q-learning, and approximate Q-learning approaches."
               technologies={["Python", "AI/ML", "Reinforcement Learning", "PyGame"]}
               imageUrl="/planet.svg"
+              githubUrl="https://github.com/Spencer29496/reinforcement-learning-with-pacman"
             />
           </div>
         </div>
@@ -236,15 +240,17 @@ function ProjectCard({
   title, 
   description, 
   technologies, 
-  imageUrl 
+  imageUrl,
+  githubUrl
 }: { 
   title: string; 
   description: string; 
   technologies: string[];
   imageUrl: string;
+  githubUrl?: string;
 }) {
   return (
-    <div className="backdrop-blur-sm bg-background/20 rounded-lg border border-accent-primary/20 overflow-hidden hover:border-accent-primary/50 transition-all duration-300 hover:shadow-[0_0_15px_rgba(139,92,246,0.3)] group">
+    <div className="backdrop-blur-sm bg-background/20 rounded-lg border border-accent-primary/20 overflow-hidden hover:border-accent-primary/50 transition-all duration-300 hover:shadow-[0_0_15px_rgba(139,92,246,0.3)] group flex flex-col h-full">
       <div className="h-48 relative overflow-hidden">
         {/* Background gradient */}
         <div className="absolute inset-0 bg-gradient-to-r from-accent-primary to-accent-secondary opacity-70"></div>
@@ -261,9 +267,9 @@ function ProjectCard({
           <h3 className="text-2xl font-bold text-white z-10 mt-24">{title}</h3>
         </div>
       </div>
-      <div className="p-6 space-y-4">
+      <div className="p-6 flex-grow flex flex-col">
         <p>{description}</p>
-        <div>
+        <div className="mt-4">
           <h4 className="text-sm font-semibold text-accent-primary mb-2">Technologies:</h4>
           <div className="flex flex-wrap gap-2">
             {technologies.map((tech, index) => (
@@ -272,6 +278,21 @@ function ProjectCard({
               </span>
             ))}
           </div>
+        </div>
+        <div className="mt-auto pt-4">
+          {githubUrl && (
+            <a 
+              href={githubUrl} 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="inline-flex items-center gap-2 text-accent-primary hover:text-accent-secondary transition-colors"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+              </svg>
+              View on GitHub
+            </a>
+          )}
         </div>
       </div>
     </div>
