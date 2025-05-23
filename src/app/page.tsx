@@ -134,9 +134,9 @@ export default function Home() {
               imageUrl="/planet.svg"
             />
             <ProjectCard
-              title="NYC Simulator"
-              description="A simulation application modeling New York City's urban dynamics. Users can interact with various city systems to understand cause and effect relationships in urban planning and development."
-              technologies={["Python", "Pygame", "JSON", "Object-Oriented Design"]}
+              title="College Housing Platform"
+              description="A web platform designed to connect college students with housing options. Features include apartment listings, roommate matching, lease management, and neighborhood guides to help students find their ideal living situation."
+              technologies={["Docker", "Node.js", "React", "Flask", "PostgreSQL"]}
               imageUrl="/planet.svg"
             />
             <ProjectCard
