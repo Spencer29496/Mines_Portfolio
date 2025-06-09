@@ -126,7 +126,7 @@ export default function Home() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             <SkillCard title="Languages" skills={["Python", "JavaScript", "TypeScript", "SQL"]} />
             <SkillCard title="Web Development" skills={["React", "Next.js", "HTML/CSS", "Node.js"]} />
-            <SkillCard title="Data Science" skills={["Pandas", "NumPy", "Machine Learning", "Data Visualization"]} />
+            <SkillCard title="Data Science" skills={["Pandas", "NumPy", "Machine Learning", "Computer Vision"]} />
             <SkillCard title="Tools" skills={["Git", "Docker", "AWS", "Linux"]} />
           </div>
         </div>
@@ -161,11 +161,11 @@ export default function Home() {
               githubUrl="https://github.com/Spencer29496/college-housing-platform"
             />
             <ProjectCard
-              title="Reinforcement Learning with Pacman"
-              description="Implementation of various reinforcement learning algorithms to enable an AI agent to learn optimal strategies for playing Pacman. Includes value iteration, Q-learning, and approximate Q-learning approaches."
-              technologies={["Python", "AI/ML", "Reinforcement Learning", "PyGame"]}
+              title="Computer Vision Tracking"
+              description="A comprehensive implementation of object tracking algorithms using Lucas-Kanade optical flow methods. Features three tracking variants: basic translation-only tracking, affine transformations (scaling, rotation, translation), and inverse compositional affine tracking for enhanced computational efficiency. Tested on multiple video datasets including vehicle and aircraft sequences."
+              technologies={["Python", "Computer Vision", "NumPy", "SciPy", "Matplotlib", "Optical Flow"]}
               imageUrl="/planet.svg"
-              githubUrl="https://github.com/Spencer29496/reinforcement-learning-with-pacman"
+              githubUrl="https://github.com/Spencer29496/Computer-Vision-Tracking"
             />
           </div>
         </div>
