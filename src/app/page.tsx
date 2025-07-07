@@ -90,16 +90,7 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-4 backdrop-blur-sm bg-background/20 p-6 rounded-lg border border-accent-primary/20">
               <p className="text-lg">
-                I'm a Computer Science graduate from Binghamton University with a passion for 
-                software development, machine learning, and creating innovative solutions.
-              </p>
-              <p className="text-lg">
-                My technical expertise includes Python, JavaScript, and various frameworks
-                and technologies for web development, data analysis, and artificial intelligence.
-              </p>
-              <p className="text-lg">
-                I enjoy working on challenging projects that leverage cutting-edge technologies
-                to create innovative and effective solutions.
+                I'm a Computer Science graduate from Binghamton University and a Software Engineer Intern at Teidore, where I develop AI-powered e-commerce solutions. My skills include Java, Python, C, C++, JavaScript, TypeScript, SQL, and frameworks like React, Next.js, Tailwind CSS, and Flask. I enjoy building innovative web applications and tackling real-world challenges with modern technology.
               </p>
             </div>
             <div className="flex justify-center">

@@ -40,6 +40,42 @@ export function ResumeSection() {
             </a>
           </div>
           
+          {/* Work Experience - Moved to top */}
+          <div className="mb-10">
+            <h3 className="text-2xl font-bold mb-5 text-blue-600 flex items-center">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mr-2">
+                <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+              </svg>
+              Work Experience
+            </h3>
+            <div className="space-y-6">
+              <div className="relative pl-8 border-l-2 border-gray-300">
+                <div className="absolute -left-1.5 top-0">
+                  <div className="w-3 h-3 rounded-full bg-blue-600"></div>
+                </div>
+                <h4 className="text-xl font-semibold">Teidore</h4>
+                <p className="text-sm text-gray-300 mb-2">Chicago, IL (Remote) • <em>Software Engineer Intern</em> • July 2025 – Present</p>
+                <ul className="list-disc list-inside space-y-2 text-white">
+                  <li>Developing a web-based platform to automate e-commerce product categorization and data integration, using React and Tailwind CSS for front-end development</li>
+                  <li>Collaborating directly with the founder to implement AI-powered tools that improve product filtering and recommendations across 50+ partnered retailers</li>
+                </ul>
+              </div>
+              
+              <div className="relative pl-8 border-l-2 border-gray-300">
+                <div className="absolute -left-1.5 top-0">
+                  <div className="w-3 h-3 rounded-full bg-blue-600"></div>
+                </div>
+                <h4 className="text-xl font-semibold">Dickinson Area Office</h4>
+                <p className="text-sm text-gray-300 mb-2">Binghamton, NY • Front Desk Position • September 2021 - May 2025</p>
+                <ul className="list-disc list-inside space-y-2 text-white">
+                  <li>Maintained and organized keys for residents of the Dickinson Community at Binghamton University</li>
+                  <li>Answered phone calls from students and parents concerning questions or problems about residential life</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          
           {/* Education */}
           <div className="mb-10">
             <h3 className="text-2xl font-bold mb-5 text-blue-600 flex items-center">
@@ -71,46 +107,12 @@ export function ResumeSection() {
               Technical Skills
             </h3>
             <div className="bg-white/10 p-4 rounded-md border border-gray-200 space-y-2">
-              <p className="text-white"><span className="font-semibold">Languages:</span> Java, Python, C, C++, SQL, HTML</p>
-              <p className="text-white"><span className="font-semibold">Frameworks and Software:</span> Next.js, AWS, Vercel, React, Git, Docker, Linux, Windows, MacOS, Microsoft</p>
+              <p className="text-white"><span className="font-semibold">Languages:</span> Java, Python, C, C++, JavaScript, TypeScript, SQL, HTML</p>
+              <p className="text-white"><span className="font-semibold">Frameworks and Software:</span> React, Next.js, Tailwind CSS, Flask, AWS, Git, GitHub, Linux, Windows, MacOS, Microsoft</p>
             </div>
           </div>
           
-          {/* Work Experience */}
-          <div className="mb-10">
-            <h3 className="text-2xl font-bold mb-5 text-blue-600 flex items-center">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mr-2">
-                <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
-                <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
-              </svg>
-              Work Experience
-            </h3>
-            <div className="space-y-6">
-              <div className="relative pl-8 border-l-2 border-gray-300">
-                <div className="absolute -left-1.5 top-0">
-                  <div className="w-3 h-3 rounded-full bg-blue-600"></div>
-                </div>
-                <h4 className="text-xl font-semibold">McCaffrey's Food Market</h4>
-                <p className="text-sm text-gray-300 mb-2">New Hope, PA • Cashier • June 2022 – Present</p>
-                <ul className="list-disc list-inside space-y-2 text-white">
-                  <li>Managed financial transactions and processed customer payments to execute the sale of goods in an efficient manner</li>
-                  <li>Recognized for exceptional customer service and consistently exceeding customer satisfaction goals</li>
-                </ul>
-              </div>
-              
-              <div className="relative pl-8 border-l-2 border-gray-300">
-                <div className="absolute -left-1.5 top-0">
-                  <div className="w-3 h-3 rounded-full bg-blue-600"></div>
-                </div>
-                <h4 className="text-xl font-semibold">Dickinson Area Office</h4>
-                <p className="text-sm text-gray-300 mb-2">Binghamton, NY • Front Desk Position • September 2021 - May 2025</p>
-                <ul className="list-disc list-inside space-y-2 text-white">
-                  <li>Maintained and organized keys for residents of the Dickinson Community at Binghamton University</li>
-                  <li>Answered phone calls from students and parents concerning questions or problems about residential life</li>
-                </ul>
-              </div>
-            </div>
-          </div>
+
           
           {/* Technical Experience */}
           <div className="mb-10">
@@ -162,11 +164,12 @@ export function ResumeSection() {
                 <div className="absolute -left-1.5 top-0">
                   <div className="w-3 h-3 rounded-full bg-blue-600"></div>
                 </div>
-                <h4 className="text-xl font-semibold">Portfolio Website</h4>
-                <p className="text-sm text-gray-300 mb-2">Technologies: Next.js, TypeScript, TailwindCSS • March 2025 – Present</p>
+                <h4 className="text-xl font-semibold">Personal Portfolio Website</h4>
+                <p className="text-sm text-gray-300 mb-2">Technologies: React, Next.js, TypeScript, TailwindCSS • March 2025 – Present</p>
                 <ul className="list-disc list-inside space-y-2 text-white">
-                  <li>Designed and developed a responsive portfolio website to showcase projects and skills</li>
-                  <li>Implemented interactive UI elements and animations to enhance user experience and engagement</li>
+                  <li>Designed and developed a responsive portfolio website to showcase projects and skills with modern UI/UX</li>
+                  <li>Implemented interactive UI elements, animations, and CI/CD deployment for enhanced user experience</li>
+                  <li>Built with React, Next.js, and TypeScript for optimal performance and maintainability</li>
                 </ul>
               </div>
               
