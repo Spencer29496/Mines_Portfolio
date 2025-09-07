@@ -40,7 +40,45 @@ export function ResumeSection() {
             </a>
           </div>
           
-          {/* Professional Experience - Moved to top */}
+          {/* Education */}
+          <div className="mb-10">
+            <h3 className="text-2xl font-bold mb-5 text-blue-600 flex items-center">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mr-2">
+                <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+              </svg>
+              Education
+            </h3>
+            <div className="space-y-6">
+              <div className="relative pl-8 border-l-2 border-gray-300">
+                <div className="absolute -left-1.5 top-0">
+                  <div className="w-3 h-3 rounded-full bg-blue-600"></div>
+                </div>
+                <h4 className="text-xl font-semibold">Binghamton University, SUNY | School of Computing</h4>
+                <p className="text-sm text-gray-300 mb-2">Graduated Spring 2025</p>
+                <p className="text-white">Bachelor of Science in Computer Science</p>
+                <ul className="list-disc list-inside space-y-1 text-white mt-2">
+                  <li>Relevant Coursework: Artificial Intelligence, High Performance Computing, Discrete Mathematics, Computer Vision, Operating Systems, Linear Algebra, Software Engineering, Design Patterns</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          
+          {/* Skills */}
+          <div className="mb-10">
+            <h3 className="text-2xl font-bold mb-5 text-blue-600 flex items-center">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mr-2">
+                <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+              </svg>
+              Technical Skills
+            </h3>
+            <div className="bg-white/10 p-4 rounded-md border border-gray-200 space-y-2">
+              <p className="text-white"><span className="font-semibold">Languages:</span> Java, Python, C, C++, JavaScript, TypeScript, SQL, HTML</p>
+              <p className="text-white"><span className="font-semibold">Frameworks and Software:</span> React, Next.js, Tailwind CSS, Flask, Docker, AWS, Git, GitHub, Linux, Windows, MacOS, Microsoft</p>
+            </div>
+          </div>
+          
+          {/* Professional Experience */}
           <div className="mb-10">
             <h3 className="text-2xl font-bold mb-5 text-blue-600 flex items-center">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mr-2">
@@ -85,44 +123,6 @@ export function ResumeSection() {
                   <li>Answered phone calls from students and parents concerning questions or problems about residential life</li>
                 </ul>
               </div>
-            </div>
-          </div>
-          
-          {/* Education */}
-          <div className="mb-10">
-            <h3 className="text-2xl font-bold mb-5 text-blue-600 flex items-center">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mr-2">
-                <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
-                <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
-              </svg>
-              Education
-            </h3>
-            <div className="space-y-6">
-              <div className="relative pl-8 border-l-2 border-gray-300">
-                <div className="absolute -left-1.5 top-0">
-                  <div className="w-3 h-3 rounded-full bg-blue-600"></div>
-                </div>
-                <h4 className="text-xl font-semibold">Binghamton University, SUNY | School of Computing</h4>
-                <p className="text-sm text-gray-300 mb-2">Graduated Spring 2025</p>
-                <p className="text-white">Bachelor of Science in Computer Science</p>
-                <ul className="list-disc list-inside space-y-1 text-white mt-2">
-                  <li>Relevant Coursework: Artificial Intelligence, High Performance Computing, Discrete Mathematics, Computer Vision, Operating Systems, Linear Algebra, Software Engineering, Design Patterns</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          
-          {/* Skills */}
-          <div className="mb-10">
-            <h3 className="text-2xl font-bold mb-5 text-blue-600 flex items-center">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mr-2">
-                <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
-              </svg>
-              Technical Skills
-            </h3>
-            <div className="bg-white/10 p-4 rounded-md border border-gray-200 space-y-2">
-              <p className="text-white"><span className="font-semibold">Languages:</span> Java, Python, C, C++, JavaScript, TypeScript, SQL, HTML</p>
-              <p className="text-white"><span className="font-semibold">Frameworks and Software:</span> React, Next.js, Tailwind CSS, Flask, Docker, AWS, Git, GitHub, Linux, Windows, MacOS, Microsoft</p>
             </div>
           </div>
           
