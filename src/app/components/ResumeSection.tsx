@@ -40,14 +40,14 @@ export function ResumeSection() {
             </a>
           </div>
           
-          {/* Work Experience - Moved to top */}
+          {/* Professional Experience - Moved to top */}
           <div className="mb-10">
             <h3 className="text-2xl font-bold mb-5 text-blue-600 flex items-center">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mr-2">
                 <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
                 <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
               </svg>
-              Work Experience
+              Professional Experience
             </h3>
             <div className="space-y-6">
               <div className="relative pl-8 border-l-2 border-gray-300">
@@ -66,8 +66,20 @@ export function ResumeSection() {
                 <div className="absolute -left-1.5 top-0">
                   <div className="w-3 h-3 rounded-full bg-blue-600"></div>
                 </div>
+                <h4 className="text-xl font-semibold">McCaffrey's Food Market</h4>
+                <p className="text-sm text-gray-300 mb-2">New Hope, PA • <em>Supervisor</em> • June 2022 – Present</p>
+                <ul className="list-disc list-inside space-y-2 text-white">
+                  <li>Promoted from cashier to supervisor for consistently high performance and reliability, overseeing daily front-end operations and ensuring excellent customer service</li>
+                  <li>Trained and managed a team of 5-10 cashiers, resolved escalated customer concerns, and maintained smooth store operations during peak hours</li>
+                </ul>
+              </div>
+              
+              <div className="relative pl-8 border-l-2 border-gray-300">
+                <div className="absolute -left-1.5 top-0">
+                  <div className="w-3 h-3 rounded-full bg-blue-600"></div>
+                </div>
                 <h4 className="text-xl font-semibold">Dickinson Area Office</h4>
-                <p className="text-sm text-gray-300 mb-2">Binghamton, NY • Front Desk Position • September 2021 - May 2025</p>
+                <p className="text-sm text-gray-300 mb-2">Binghamton, NY • <em>Front Desk Position</em> • September 2021 - May 2025</p>
                 <ul className="list-disc list-inside space-y-2 text-white">
                   <li>Maintained and organized keys for residents of the Dickinson Community at Binghamton University</li>
                   <li>Answered phone calls from students and parents concerning questions or problems about residential life</li>
@@ -93,7 +105,9 @@ export function ResumeSection() {
                 <h4 className="text-xl font-semibold">Binghamton University, SUNY | School of Computing</h4>
                 <p className="text-sm text-gray-300 mb-2">Graduated Spring 2025</p>
                 <p className="text-white">Bachelor of Science in Computer Science</p>
-                <p className="text-white mt-2">Relevant Coursework: Artificial Intelligence, High Performance Computing, Discrete Mathematics, Computer Vision, Operating Systems, Linear Algebra, Software Engineering, Design Patterns</p>
+                <ul className="list-disc list-inside space-y-1 text-white mt-2">
+                  <li>Relevant Coursework: Artificial Intelligence, High Performance Computing, Discrete Mathematics, Computer Vision, Operating Systems, Linear Algebra, Software Engineering, Design Patterns</li>
+                </ul>
               </div>
             </div>
           </div>
@@ -108,17 +122,15 @@ export function ResumeSection() {
             </h3>
             <div className="bg-white/10 p-4 rounded-md border border-gray-200 space-y-2">
               <p className="text-white"><span className="font-semibold">Languages:</span> Java, Python, C, C++, JavaScript, TypeScript, SQL, HTML</p>
-              <p className="text-white"><span className="font-semibold">Frameworks and Software:</span> React, Next.js, Tailwind CSS, Flask, AWS, Git, GitHub, Linux, Windows, MacOS, Microsoft</p>
+              <p className="text-white"><span className="font-semibold">Frameworks and Software:</span> React, Next.js, Tailwind CSS, Flask, Docker, AWS, Git, GitHub, Linux, Windows, MacOS, Microsoft</p>
             </div>
           </div>
-          
-
           
           {/* Technical Experience */}
           <div className="mb-10">
             <h3 className="text-2xl font-bold mb-5 text-blue-600 flex items-center">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mr-2">
-                <path d="M18 10h-4V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v6H2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-8a2 2 0 0 0-2-2z"></path>
+                <path d="M18 10h-4V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v6H2a2 2 0 0 0-2 2v8a2 2 0 0 0 2-2v-8a2 2 0 0 0-2-2z"></path>
               </svg>
               Technical Experience
             </h3>
@@ -167,9 +179,10 @@ export function ResumeSection() {
                 <h4 className="text-xl font-semibold">Personal Portfolio Website</h4>
                 <p className="text-sm text-gray-300 mb-2">Technologies: React, Next.js, TypeScript, TailwindCSS • March 2025 – Present</p>
                 <ul className="list-disc list-inside space-y-2 text-white">
-                  <li>Designed and developed a responsive portfolio website to showcase projects and skills with modern UI/UX</li>
-                  <li>Implemented interactive UI elements, animations, and CI/CD deployment for enhanced user experience</li>
-                  <li>Built with React, Next.js, and TypeScript for optimal performance and maintainability</li>
+                  <li>Developed a modern, responsive portfolio website using React and Next.js framework</li>
+                  <li>Implemented continuous integration and deployment (CI/CD) pipeline for automated testing and deployment</li>
+                  <li>Created dynamic content sections to showcase projects, skills, and professional background</li>
+                  <li>Incorporated responsive design principles ensuring optimal viewing across all device sizes</li>
                 </ul>
               </div>
               
