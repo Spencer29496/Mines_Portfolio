@@ -4,7 +4,7 @@ export function ResumeSection() {
   return (
     <section id="resume" className="py-20 relative">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold mb-8 text-center">Professional Experience</h2>
+        <h2 className="text-3xl font-bold mb-8 text-center">Resume</h2>
         
         <div className="max-w-4xl mx-auto bg-background/20 p-8 rounded-lg border border-gray-200 transition-all duration-300">
           {/* Resume Buttons */}
@@ -39,6 +39,22 @@ export function ResumeSection() {
               View Resume
             </a>
           </div>
+
+          {/* Header */}
+          <div className="text-center mb-12 pb-8 border-b border-gray-300">
+            <h1 className="text-5xl font-bold text-white mb-4">Spencer Mines</h1>
+            <div className="text-gray-300 text-lg flex flex-wrap justify-center items-center gap-2">
+              <span>Huntington, NY</span>
+              <span className="text-gray-500">•</span>
+              <span>(631) 479-8088</span>
+              <span className="text-gray-500">•</span>
+              <span>spencermines1@gmail.com</span>
+              <span className="text-gray-500">•</span>
+              <a href="https://www.linkedin.com/in/spencer-mines/" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 transition-colors">LinkedIn</a>
+              <span className="text-gray-500">•</span>
+              <a href="#" className="text-blue-400 hover:text-blue-300 transition-colors">Portfolio</a>
+            </div>
+          </div>
           
           {/* Education */}
           <div className="mb-10">
@@ -47,80 +63,69 @@ export function ResumeSection() {
                 <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
                 <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
               </svg>
-              Education
+              EDUCATION
             </h3>
             <div className="space-y-6">
-              <div className="relative pl-8 border-l-2 border-gray-300">
+              <div className="relative pl-8 border-l-2 border-gray-300 pb-6">
                 <div className="absolute -left-1.5 top-0">
                   <div className="w-3 h-3 rounded-full bg-blue-600"></div>
                 </div>
-                <h4 className="text-xl font-semibold">Binghamton University, SUNY | School of Computing</h4>
-                <p className="text-sm text-gray-300 mb-2">Graduated Spring 2025</p>
-                <p className="text-white">Bachelor of Science in Computer Science</p>
-                <ul className="list-disc list-inside space-y-1 text-white mt-2">
-                  <li>Relevant Coursework: Artificial Intelligence, High Performance Computing, Discrete Mathematics, Computer Vision, Operating Systems, Linear Algebra, Software Engineering, Design Patterns</li>
-                </ul>
+                <div className="mb-3">
+                  <h4 className="text-xl font-semibold text-white mb-2">Binghamton University, SUNY | School of Computing</h4>
+                  <div className="flex justify-between items-center mb-2">
+                    <p className="text-blue-400 font-medium">Bachelor of Science in Computer Science</p>
+                    <p className="text-gray-300 text-sm font-medium">Graduated Spring 2025</p>
+                  </div>
+                </div>
+                <p className="text-gray-200 leading-relaxed"><span className="font-semibold text-white">Relevant Coursework:</span> High Performance Computing, Discrete Mathematics, Computer Vision, Operating Systems, Linear Algebra, Software Engineering, Design Patterns</p>
               </div>
             </div>
           </div>
           
-          {/* Skills */}
+          {/* Technical Skills */}
           <div className="mb-10">
             <h3 className="text-2xl font-bold mb-5 text-blue-600 flex items-center">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mr-2">
                 <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
               </svg>
-              Technical Skills
+              TECHNICAL SKILLS
             </h3>
-            <div className="bg-white/10 p-4 rounded-md border border-gray-200 space-y-2">
-              <p className="text-white"><span className="font-semibold">Languages:</span> Java, Python, C, C++, JavaScript, TypeScript, SQL, HTML</p>
-              <p className="text-white"><span className="font-semibold">Frameworks and Software:</span> React, Next.js, Tailwind CSS, Flask, Docker, AWS, Git, GitHub, Linux, Windows, MacOS, Microsoft</p>
+            <div className="bg-white/10 p-6 rounded-lg border border-gray-200 space-y-3">
+              <div className="space-y-2">
+                <p className="text-gray-200 leading-relaxed"><span className="font-semibold text-white">Languages:</span> Python, Java, C/C++, SQL, JavaScript/TypeScript, HTML/CSS</p>
+                <p className="text-gray-200 leading-relaxed"><span className="font-semibold text-white">Frameworks and Software:</span> React, Next.js, Tailwind, Flask, AWS, Docker, Git, Linux</p>
+              </div>
             </div>
           </div>
           
-          {/* Professional Experience */}
+          {/* Software Engineering Experience */}
           <div className="mb-10">
             <h3 className="text-2xl font-bold mb-5 text-blue-600 flex items-center">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mr-2">
                 <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
                 <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
               </svg>
-              Professional Experience
+              SOFTWARE ENGINEERING EXPERIENCE
             </h3>
             <div className="space-y-6">
-              <div className="relative pl-8 border-l-2 border-gray-300">
+              <div className="relative pl-8 border-l-2 border-gray-300 pb-6">
                 <div className="absolute -left-1.5 top-0">
                   <div className="w-3 h-3 rounded-full bg-blue-600"></div>
                 </div>
-                <h4 className="text-xl font-semibold">Teidore</h4>
-                <p className="text-sm text-gray-300 mb-2">Chicago, IL (Remote) • <em>Software Engineer Intern</em> • July 2025 – Present</p>
-                <ul className="list-disc list-inside space-y-2 text-white">
-                  <li>Developing a web-based platform to automate e-commerce product categorization and data integration, using React and Tailwind CSS for front-end development</li>
-                  <li>Collaborating directly with the founder to implement AI-powered tools that improve product filtering and recommendations across 50+ partnered retailers</li>
-                </ul>
-              </div>
-              
-              <div className="relative pl-8 border-l-2 border-gray-300">
-                <div className="absolute -left-1.5 top-0">
-                  <div className="w-3 h-3 rounded-full bg-blue-600"></div>
+                <div className="mb-3">
+                  <div className="flex justify-between items-start mb-2">
+                    <h4 className="text-xl font-semibold text-white">Teidore</h4>
+                    <p className="text-gray-300 text-sm font-medium">Chicago, IL (Remote)</p>
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <p className="text-blue-400 text-sm font-medium"><em>Software Engineer Intern</em></p>
+                    <p className="text-gray-300 text-sm font-medium">July 2025 – September 2025</p>
+                  </div>
                 </div>
-                <h4 className="text-xl font-semibold">McCaffrey's Food Market</h4>
-                <p className="text-sm text-gray-300 mb-2">New Hope, PA • <em>Supervisor</em> • June 2022 – Present</p>
-                <ul className="list-disc list-inside space-y-2 text-white">
-                  <li>Promoted from cashier to supervisor for consistently high performance and reliability, overseeing daily front-end operations and ensuring excellent customer service</li>
-                  <li>Trained and managed a team of 5-10 cashiers, resolved escalated customer concerns, and maintained smooth store operations during peak hours</li>
-                </ul>
-              </div>
-              
-              <div className="relative pl-8 border-l-2 border-gray-300">
-                <div className="absolute -left-1.5 top-0">
-                  <div className="w-3 h-3 rounded-full bg-blue-600"></div>
-                </div>
-                <h4 className="text-xl font-semibold">Dickinson Area Office</h4>
-                <p className="text-sm text-gray-300 mb-2">Binghamton, NY • <em>Front Desk Position</em> • September 2021 - May 2025</p>
-                <ul className="list-disc list-inside space-y-2 text-white">
-                  <li>Maintained and organized keys for residents of the Dickinson Community at Binghamton University</li>
-                  <li>Answered phone calls from students and parents concerning questions or problems about residential life</li>
+                <ul className="list-disc list-inside space-y-2 text-gray-200 leading-relaxed">
+                  <li>Developed a web-based platform to automate e-commerce product categorization and data integration, using React and Tailwind CSS for front-end development</li>
+                  <li>Implemented AI-powered tools improving product filtering and recommendations across 50+ partner retailers</li>
+                  <li>Collaborated with the founder to enhance data accuracy and platform scalability through Supabase and PostgresSQL schema optimizations</li>
                 </ul>
               </div>
             </div>
@@ -134,27 +139,27 @@ export function ResumeSection() {
                 <line x1="8" y1="21" x2="16" y2="21"></line>
                 <line x1="12" y1="17" x2="12" y2="21"></line>
               </svg>
-              Technical Experience
+              TECHNICAL EXPERIENCE
             </h3>
             <div className="space-y-6">
-              <div className="relative pl-8 border-l-2 border-gray-300">
+              <div className="relative pl-8 border-l-2 border-gray-300 pb-6">
                 <div className="absolute -left-1.5 top-0">
                   <div className="w-3 h-3 rounded-full bg-blue-600"></div>
                 </div>
-                <h4 className="text-xl font-semibold">Software Development and Systems</h4>
-                <ul className="list-disc list-inside space-y-2 text-white">
+                <h4 className="text-xl font-semibold text-white mb-3">Software Development and Systems</h4>
+                <ul className="list-disc list-inside space-y-2 text-gray-200 leading-relaxed">
                   <li>Proficient in Java, Python, C++, and SQL with experience in full-stack development</li>
                   <li>Strong foundation in data structures (lists, stacks, queues, trees, heaps, hash tables) and algorithm design</li>
                   <li>Skilled in memory management, instruction set architecture, and cache optimization</li>
                 </ul>
               </div>
               
-              <div className="relative pl-8 border-l-2 border-gray-300">
+              <div className="relative pl-8 border-l-2 border-gray-300 pb-6">
                 <div className="absolute -left-1.5 top-0">
                   <div className="w-3 h-3 rounded-full bg-blue-600"></div>
                 </div>
-                <h4 className="text-xl font-semibold">Artificial Intelligence and Machine Learning</h4>
-                <ul className="list-disc list-inside space-y-2 text-white">
+                <h4 className="text-xl font-semibold text-white mb-3">Artificial Intelligence and Machine Learning</h4>
+                <ul className="list-disc list-inside space-y-2 text-gray-200 leading-relaxed">
                   <li>Studied AI agent design, search algorithms, knowledge representation, and planning techniques</li>
                   <li>Gained hands-on experience with natural language processing, computer vision, and robotics</li>
                   <li>Implemented Markov Decision Processes (MDPs), Q-learning agents, and Expectimax-based AI in adversarial games</li>
@@ -163,7 +168,7 @@ export function ResumeSection() {
             </div>
           </div>
           
-          {/* Projects section */}
+          {/* Project Experience */}
           <div className="mb-10">
             <h3 className="text-2xl font-bold mb-5 text-blue-600 flex items-center">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mr-2">
@@ -171,56 +176,89 @@ export function ResumeSection() {
                 <polyline points="2 17 12 22 22 17"></polyline>
                 <polyline points="2 12 12 17 22 12"></polyline>
               </svg>
-              Project Experience
+              PROJECT EXPERIENCE
             </h3>
             <div className="space-y-6">
-              <div className="relative pl-8 border-l-2 border-gray-300">
+              <div className="relative pl-8 border-l-2 border-gray-300 pb-6">
                 <div className="absolute -left-1.5 top-0">
                   <div className="w-3 h-3 rounded-full bg-blue-600"></div>
                 </div>
-                <h4 className="text-xl font-semibold">Personal Portfolio Website</h4>
-                <p className="text-sm text-gray-300 mb-2">Technologies: React, Next.js, TypeScript, TailwindCSS • March 2025 – Present</p>
-                <ul className="list-disc list-inside space-y-2 text-white">
-                  <li>Developed a modern, responsive portfolio website using React and Next.js framework</li>
-                  <li>Implemented continuous integration and deployment (CI/CD) pipeline for automated testing and deployment</li>
-                  <li>Created dynamic content sections to showcase projects, skills, and professional background</li>
-                  <li>Incorporated responsive design principles ensuring optimal viewing across all device sizes</li>
-                </ul>
-              </div>
-              
-              <div className="relative pl-8 border-l-2 border-gray-300">
-                <div className="absolute -left-1.5 top-0">
-                  <div className="w-3 h-3 rounded-full bg-blue-600"></div>
+                <div className="mb-3">
+                  <div className="flex justify-between items-start mb-2">
+                    <h4 className="text-xl font-semibold text-white">College Housing Platform</h4>
+                    <p className="text-gray-300 text-sm font-medium">January 2025 – May 2025</p>
+                  </div>
+                  <p className="text-blue-400 text-sm font-medium">Technologies: Python, Node.js, React.js</p>
                 </div>
-                <h4 className="text-xl font-semibold">College Housing Platform</h4>
-                <p className="text-sm text-gray-300 mb-2">Technologies: Docker, Node.js, React.js • January 2025 – May 2025</p>
-                <ul className="list-disc list-inside space-y-2 text-white">
+                <ul className="list-disc list-inside space-y-2 text-gray-200 leading-relaxed">
                   <li>Developed a platform to streamline the housing and roommate search process for college students, providing an all-in-one solution for listings and roommate connections</li>
                   <li>Implemented an intuitive user interface featuring an interactive map, enabling users to explore housing options by location, price, and amenities</li>
                 </ul>
               </div>
               
-              <div className="relative pl-8 border-l-2 border-gray-300">
+              <div className="relative pl-8 border-l-2 border-gray-300 pb-6">
                 <div className="absolute -left-1.5 top-0">
                   <div className="w-3 h-3 rounded-full bg-blue-600"></div>
                 </div>
-                <h4 className="text-xl font-semibold">Exoplanet Database</h4>
-                <p className="text-sm text-gray-300 mb-2">Technologies: Python, SQL/Databases • October 2024 – December 2024</p>
-                <ul className="list-disc list-inside space-y-2 text-white">
+                <div className="mb-3">
+                  <div className="flex justify-between items-start mb-2">
+                    <h4 className="text-xl font-semibold text-white">Exoplanet Database</h4>
+                    <p className="text-gray-300 text-sm font-medium">October 2024 – December 2024</p>
+                  </div>
+                  <p className="text-blue-400 text-sm font-medium">Technologies: Python, SQL/Databases</p>
+                </div>
+                <ul className="list-disc list-inside space-y-2 text-gray-200 leading-relaxed">
                   <li>Developed a Flask-based web application to display, search, and explore a database of exoplanets with pagination and detailed views for each planet</li>
                   <li>Designed and implemented an SQLite database schema to store exoplanet information, including discovery details, host star data, and image URLs</li>
                 </ul>
               </div>
               
-              <div className="relative pl-8 border-l-2 border-gray-300">
+              <div className="relative pl-8 border-l-2 border-gray-300 pb-6">
                 <div className="absolute -left-1.5 top-0">
                   <div className="w-3 h-3 rounded-full bg-blue-600"></div>
                 </div>
-                <h4 className="text-xl font-semibold">Ideal Glycemic Control in Type 1 Diabetics</h4>
-                <p className="text-sm text-gray-300 mb-2">Watson College of Engineering • January 2023 – May 2023</p>
-                <ul className="list-disc list-inside space-y-2 text-white">
+                <div className="mb-3">
+                  <div className="flex justify-between items-start mb-2">
+                    <h4 className="text-xl font-semibold text-white">Ideal Glycemic Control in Type 1 Diabetics</h4>
+                    <p className="text-gray-300 text-sm font-medium">January 2023 – May 2023</p>
+                  </div>
+                  <p className="text-blue-400 text-sm font-medium">Watson College of Engineering</p>
+                </div>
+                <ul className="list-disc list-inside space-y-2 text-gray-200 leading-relaxed">
                   <li>Authored a comprehensive research paper on improving glycemic control in Type 1 Diabetics</li>
                   <li>Analyzed and compared two prominent control algorithms, specifically focusing on model predictive control and proportional integral derivative</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          
+          {/* Additional Experience */}
+          <div className="mb-10">
+            <h3 className="text-2xl font-bold mb-5 text-blue-600 flex items-center">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mr-2">
+                <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+              </svg>
+              ADDITIONAL EXPERIENCE
+            </h3>
+            <div className="space-y-6">
+              <div className="relative pl-8 border-l-2 border-gray-300 pb-6">
+                <div className="absolute -left-1.5 top-0">
+                  <div className="w-3 h-3 rounded-full bg-blue-600"></div>
+                </div>
+                <div className="mb-3">
+                  <div className="flex justify-between items-start mb-2">
+                    <h4 className="text-xl font-semibold text-white">McCaffrey's Food Market</h4>
+                    <p className="text-gray-300 text-sm font-medium">New Hope, PA</p>
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <p className="text-blue-400 text-sm font-medium"><em>Supervisor</em></p>
+                    <p className="text-gray-300 text-sm font-medium">June 2022 – Present</p>
+                  </div>
+                </div>
+                <ul className="list-disc list-inside space-y-2 text-gray-200 leading-relaxed">
+                  <li>Promoted from cashier to supervisor for consistently high performance and reliability; recognized as Employee of the Month while overseeing daily front-end operations and ensuring excellent customer service</li>
+                  <li>Trained and managed a team of 5-10 cashiers, resolved escalated customer concerns, and maintained smooth store operations during peak hours</li>
                 </ul>
               </div>
             </div>
@@ -235,28 +273,25 @@ export function ResumeSection() {
                 <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
                 <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
               </svg>
-              Activities
+              ACTIVITIES
             </h3>
             <div className="space-y-6">
-              <div className="relative pl-8 border-l-2 border-gray-300">
+              <div className="relative pl-8 border-l-2 border-gray-300 pb-6">
                 <div className="absolute -left-1.5 top-0">
                   <div className="w-3 h-3 rounded-full bg-blue-600"></div>
                 </div>
-                <h4 className="text-xl font-semibold">JDRF Participant Advisory Council</h4>
-                <p className="text-sm text-gray-300 mb-2">Binghamton, NY • Member • March 2024 - Present</p>
-                <ul className="list-disc list-inside space-y-2 text-white">
+                <div className="mb-3">
+                  <div className="flex justify-between items-start mb-2">
+                    <h4 className="text-xl font-semibold text-white">JDRF Participant Advisory Council</h4>
+                    <p className="text-gray-300 text-sm font-medium">Binghamton, NY</p>
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <p className="text-blue-400 text-sm font-medium"><em>Member</em></p>
+                    <p className="text-gray-300 text-sm font-medium">March 2024 - Present</p>
+                  </div>
+                </div>
+                <ul className="list-disc list-inside space-y-2 text-gray-200 leading-relaxed">
                   <li>Championed broader awareness and education of Type 1 Diabetes, galvanizing support for groundbreaking research, and fostering a deeper understanding of life as a Type 1 Diabetic</li>
-                </ul>
-              </div>
-              
-              <div className="relative pl-8 border-l-2 border-gray-300">
-                <div className="absolute -left-1.5 top-0">
-                  <div className="w-3 h-3 rounded-full bg-blue-600"></div>
-                </div>
-                <h4 className="text-xl font-semibold">Centenary United Methodist Church</h4>
-                <p className="text-sm text-gray-300 mb-2">Lambertville, NJ • Volunteer • April 2023 – August 2023</p>
-                <ul className="list-disc list-inside space-y-2 text-white">
-                  <li>Dedicated volunteer work at the soup kitchen, providing essential support to individuals facing food insecurity within the community</li>
                 </ul>
               </div>
             </div>
